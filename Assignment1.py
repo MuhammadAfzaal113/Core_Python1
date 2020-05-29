@@ -1,2 +1,5 @@
-print("Hello World")
-print("trying to upload the .py files to github")
+import Category
+
+if __name__ == '__main__':
+    Category.display_category()
+    Category.search_category()
